@@ -37,7 +37,7 @@ export default class FacebookPost extends Component {
                     
                 </form>
                 <p>
-                    <FacebookProvider appId="2345735522142518">
+                    <FacebookProvider appId="put your id here">
                         <EmbeddedPost href={this.state.value} width="500" />
                     </FacebookProvider>
                 </p>
